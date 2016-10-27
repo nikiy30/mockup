@@ -1,0 +1,138 @@
+
+.container {
+}
+
+
+.row {
+    min-height:200px;
+}
+
+.one {
+    border:1px solid #e5e5e5;
+    text-align:center;
+    margin-top:20px;
+    background-color: #f9f5f2;
+}
+
+.sub {
+    text-align:center;
+    background-color:#262626!important;
+    width:100%;
+    height:100px;
+    color:#ffffff;
+}
+
+.hispania {
+    text-align:center;
+    background-color:#f9f5f2;
+}
+
+.hi-left {
+    display:inline;
+    color: #fff;
+    float: left;
+}
+
+.hi-right {
+    text-align:right;
+    display:inline;
+    color: #e5e5e5;
+    float: right;
+}
+
+.cohorts {
+    width:80%;
+    background:orange;
+    padding: 8px;
+    margin: 10px auto;
+}
+
+.legionaries {
+    width:80%;
+    background:#94650a;
+    padding: 8px;
+    margin: 10px auto;
+}
+
+.equites {
+    width:80%;
+    background:#503300;
+    padding: 8px;
+    margin: 10px auto;
+}
+
+.two {
+    border:1px solid #e5e5e5;
+    margin-top:20px;
+}
+
+.three {
+    background:url("/images/spartan-1.png") no-repeat;
+    background-size: cover;
+    height:250px;
+    width:100%;
+    margin-top:20px;
+    border:1px solid #e5e5e5;
+}
+
+.four img, .four{
+  width:100%;
+}
+
+.four {
+    margin-top:20px;
+    background-color: #f9f5f2;
+    border:1px solid #e5e5e5;
+}
+
+.info-txt {
+   width: 35%;
+   display:inline;
+   float:left;
+}
+
+.info-pic {
+    width: 65%;
+    display:inline;
+    float:right;
+}
+
+.info-pic img {
+    max-width:150px;
+}
+
+
+.col-md-4 {
+    display:block;
+    overflow: hidden;
+    width: 30%!important;
+}
+
+.container>.col-md-4 {
+    margin:0 15px;
+}
+
+.element {
+    margin:20px 0;
+    padding-left: 30px;
+}
+
+.element h5 {
+    font-size:12px
+}
+
+/* CLEARFIX HACK */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
